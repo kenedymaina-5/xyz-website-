@@ -1,0 +1,151 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+nav {display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+nav a:hover {
+  color: #0066ff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #121212;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-section a:hover {
+  color: #999;
+}
+
+.copyright {
+  background-color: #222;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label,
+form input[type="text"],
+form textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form input[type="submit"] {
+  background-color: #0066ff;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.nav-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
